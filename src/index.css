@@ -1,0 +1,16 @@
+/*In this setup, index.css provides global styles that apply to the entire application, while app.scss provides scoped styles specific to the App component and its descendants. The styles in app.scss won't override global styles from index.css unless you have specific CSS rules in app.scss that are more specific or use the !important declaration.*/
+/*default */
+html{
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  font:300 11px/1.4 'Helvetica Neue', 'sans-serif';
+  color:#444;
+  background: #022c43;
+  overflow: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
