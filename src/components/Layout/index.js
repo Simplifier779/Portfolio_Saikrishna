@@ -1,5 +1,5 @@
 import './index.scss';
-import Sidebar from 'C://Users//karra//Documents//NodeApp//portfolio//src/components/Sidebar';
+import Sidebar from './Sidebar';
 import { Outlet } from 'react-router-dom'
 import React from 'react'
 
